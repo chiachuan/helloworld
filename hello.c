@@ -7,7 +7,7 @@ int main(void)
 {
 	sleep(100000000);
 	printf("Hello World!!\n");
-        
+        print("hello world!!\n");        
 	
 	__mwait(0,0);
 
