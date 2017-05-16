@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <unistd.h>
+
+
+
+int main(void)
+{
+	sleep(100000000);
+	printf("Hello World!!\n");
+        
+	
+	__mwait(0,0);
+
+	sleep(10);
+        MWAIT();
+	pause();
+	return 0;
+
+}
