@@ -1,0 +1,1 @@
+add new logitech speaker
